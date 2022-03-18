@@ -7,7 +7,7 @@ Contoh :
 ${usedPrefix}ytmp3 (link)
 ${usedPrefix}stiker (reply foto atau send foto dengan caption ${usedPrefix}stiker)
 
-Jika Anda masih tidak mengerti, silahkan menunggu @${owner.replace(/@.+/,'') online
+Jika Anda masih tidak mengerti, silahkan menunggu @${owner.replace(/@.+/,'')} online
 `.trim()
 conn.sendButton(m.chat, teks 'Bot ini diciptakan untuk mengisi kegabutan anda sembari menunggu owner saya online kembali', `Apa saja yang bisa dilakukan oleh bot ini`, '.allmenu', {
     key: { 
