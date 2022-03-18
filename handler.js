@@ -33,6 +33,7 @@ module.exports = {
           if (!user.registered) {
             if (!('name' in user)) user.name = this.getName(m.sender)
             if (!isNumber(user.age)) user.age = -1
+            if (!isNumber(user.time)) user.time = 0
             if (!isNumber(user.regTime)) user.regTime = -1
           }
           if (!isNumber(user.afk)) user.afk = -1
@@ -49,6 +50,7 @@ module.exports = {
           registered: false,
           name: this.getName(m.sender),
           age: -1,
+          time: 0,
           regTime: -1,
           afk: -1,
           afkReason: '',
@@ -83,7 +85,7 @@ module.exports = {
           sBye: '',
           sPromote: '',
           sDemote: '',
-          delete: false,
+          delete: true,
           antiLink: false,
           antiSticker: false,
           getmsg: false,
