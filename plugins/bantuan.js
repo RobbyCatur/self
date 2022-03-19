@@ -1,4 +1,4 @@
-let handler = async (m, { conn }) => {
+let handler = async (m, { conn, usedPrefix }) => {
   let owner = ('6282245409072@s.whatsapp.net')
   let teks = `
 Cara menggunakan bot ini cukup mudah, Anda hanya cukup memasukkan salah satu dari daftar menu (untuk beberapa menu, diperlukan teks tambahan)
