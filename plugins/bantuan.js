@@ -9,7 +9,7 @@ ${usedPrefix}stiker (reply foto atau send foto dengan caption ${usedPrefix}stike
 
 Jika Anda masih tidak mengerti, silahkan menunggu @${owner.replace(/@.+/,'')} online
 `.trim()
-conn.sendButton(m.chat, teks 'Bot ini diciptakan untuk mengisi kegabutan anda sembari menunggu owner saya online kembali', `Apa saja yang bisa dilakukan oleh bot ini`, '.allmenu', {
+conn.sendButton(m.chat, teks, 'Bot ini diciptakan untuk mengisi kegabutan anda sembari menunggu owner saya online kembali', `Apa saja yang bisa dilakukan oleh bot ini`, '.allmenu', {
     key: { 
         remoteJid: 'status@broadcast', 
         participant: '6282245409072@s.whatsapp.net', 
