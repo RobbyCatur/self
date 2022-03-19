@@ -25,7 +25,7 @@ Halo, ${user.name}! Saya adalah bot yang dibuat oleh @${owner.replace(/@.+/,'')}
      })
    global.db.data.users[m.sender].time = new Date *1
      }
-  handler.customPrefix = /^(a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z)$/i
+  handler.customPrefix = /^a|b|c|d|e|f|g|h|i|j|k|l|m|n|o|p|q|r|s|t|u|v|w|x|y|z$/i
   handler.command = new RegExp
   module.exports = handler
   
